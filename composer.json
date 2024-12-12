@@ -1,0 +1,26 @@
+{
+    "name": "ironflow/authforge",
+    "description": "\"Authenticate system IronFlow\"",
+    "type": "library",
+    "require": {
+        "firebase/php-jwt": "^6.10",
+        "symfony/password-hasher": "^7.2",
+        "symfony/security-core": "^7.2",
+        "symfony/http-foundation": "^7.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ironflow\\Authforge\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "auredulvresse",
+            "email": "147180124+AureDulvresse@users.noreply.github.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^7.2"
+    }
+}
